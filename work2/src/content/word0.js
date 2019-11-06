@@ -28,7 +28,7 @@ export default class word0 extends Component {
     render() {
         return (
             <div>
-            <div style={{backgroundColor:"#fff"}} dangerouslySetInnerHTML={{__html:this.state.data}}></div>
+            <div style={{backgroundColor:"#fff",overflow:"hidden"}} dangerouslySetInnerHTML={{__html:this.state.data}}></div>
             </div>
         )
     }
